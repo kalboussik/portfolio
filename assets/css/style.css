@@ -495,16 +495,16 @@ main {
   #ABOUT
 \*-----------------------------------*/
 
-.apropos .article-title { margin-bottom: 15px; }
+.'À Propos De Moi' .article-title { margin-bottom: 15px; }
 
-.apropos-text {
+.'À Propos De Moi-text' {
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
 
-.apropos-text p { margin-bottom: 15px; }
+.'À Propos De Moi-text' p { margin-bottom: 15px; }
 
 
 
