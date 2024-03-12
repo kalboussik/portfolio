@@ -764,7 +764,7 @@ main {
   #CV
 \*-----------------------------------*/
 
-.article-title { margin-bottom: 30px; }
+.CV article-title { margin-bottom: 30px; }
 
 
 /**
@@ -919,7 +919,7 @@ main {
   pointer-events: all;
 }
 
-.select-item button {
+.CV select-item button {
   background: var(--eerie-black-2);
   color: var(--light-gray);
   font-size: var(--fs-6);
