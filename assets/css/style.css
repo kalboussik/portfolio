@@ -495,16 +495,16 @@ main {
   #ABOUT
 \*-----------------------------------*/
 
-.about .article-title { margin-bottom: 15px; }
+.apropos .article-title { margin-bottom: 15px; }
 
-.about-text {
+.apropos-text {
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
 
-.about-text p { margin-bottom: 15px; }
+.apropos-text p { margin-bottom: 15px; }
 
 
 
@@ -761,7 +761,7 @@ main {
 
 
 /*-----------------------------------*\
-  #RESUME
+  #CV
 \*-----------------------------------*/
 
 .article-title { margin-bottom: 30px; }
@@ -1385,9 +1385,9 @@ textarea.form-input::-webkit-resizer { display: none; }
    * #ABOUT
    */
 
-  .about .article-title { margin-bottom: 20px; }
+  .apropos .article-title { margin-bottom: 20px; }
 
-  .about-text { margin-bottom: 40px; }
+  .apropos-text { margin-bottom: 40px; }
 
   /* service */
 
@@ -1485,7 +1485,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * #RESUME
+   * #CV
    */
 
   .timeline-list { margin-left: 65px; }
@@ -1874,7 +1874,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-	 * RESUME
+	 * CV
 	 */
 
   .timeline-text { max-width: 700px; }
