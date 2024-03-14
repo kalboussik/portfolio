@@ -84,11 +84,11 @@ const filterFunc = function (selectedValue) {
 
     if (selectedValue === "all") {
       filterItems[i].classList.add("active");
-    } else if (selectedValue === "Freelance") {
+    } else if (selectedValue === "freelance") {
       filterItems[1].classList.add("active");
-    } else if (selectedValue === "Enseignement et Encadrement") {
+    } else if (selectedValue === "fnseignement et fncadrement") {
       filterItems[2].classList.add("active");
-    } else if (selectedValue === "Recherche scientifique") {
+    } else if (selectedValue === "recherche scientifique") {
       filterItems[3].classList.add("active");
     } else {
       filterItems[i].classList.remove("active");
