@@ -90,7 +90,7 @@ const filterFunc = function (selectedValue) {
       filterItems[1].classList.add("active");
       filterItems[2].classList.remove("active");
       filterItems[3].classList.remove("active");
-    } else if (selectedValue === "enseignement et encadrement") {
+    } else if (selectedValue === "Enseignement et encadrement") {
       filterItems[2].classList.remove("active");
       filterItems[1].classList.remove("active");
       filterItems[2].classList.add("active");
