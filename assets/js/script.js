@@ -81,7 +81,7 @@ const filterItems = document.querySelectorAll("[data-filter-item]");
 const filterFunc = function (selectedValue) {
 
     if (selectedValue === "all") {
-      filterItems[0].classList.add("active");
+      filterItems[0].classList.remove("active");
       filterItems[1].classList.remove("active");
       filterItems[2].classList.remove("active");
       filterItems[3].classList.remove("active");
