@@ -80,23 +80,35 @@ const filterItems = document.querySelectorAll("[data-filter-item]");
 
 const filterFunc = function (selectedValue) {
 
-  for (let i = 0; i < filterItems.length; i++) {
-
     if (selectedValue === "all") {
-      filterItems[i].classList.add("active");
+      filterItems[0].classList.add("active");
+      filterItems[1].classList.remove("active");
+      filterItems[2].classList.remove("active");
+      filterItems[3].classList.remove("active");
     } else if (selectedValue === "freelance") {
+      filterItems[0].classList.remove("active");
       filterItems[1].classList.add("active");
-    } else if (selectedValue === "fnseignement et fncadrement") {
+      filterItems[2].classList.remove("active");
+      filterItems[3].classList.remove("active");
+    } else if (selectedValue === "enseignement et encadrement") {
+      filterItems[2].classList.remove("active");
+      filterItems[1].classList.remove("active");
       filterItems[2].classList.add("active");
+      filterItems[3].classList.remove("active");
     } else if (selectedValue === "recherche scientifique") {
+      filterItems[0].classList.remove("active");
+      filterItems[1].classList.remove("active");
+      filterItems[2].classList.remove("active");
       filterItems[3].classList.add("active");
     } else {
-      filterItems[i].classList.remove("active");
+      filterItems[0].classList.remove("active");
+      filterItems[1].classList.remove("active");
+      filterItems[2].classList.remove("active");
+      filterItems[3].classList.remove("active");
     }
 
   }
 
-}
 
 // add event in all filter button items for large screen
 let lastClickedBtn = filterBtn[0];
